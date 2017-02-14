@@ -1,0 +1,254 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Titillium+Web:300,400,700');
+/* BODY */
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+/* NAVBAR */
+.navbar {
+    min-height: 75px;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0px;
+}
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+      margin-top: 10px;
+  }
+  .navbar-brand-centered {
+    margin-top: 10px;
+  }
+}
+.navbar-default {
+  background-color: #232323;
+  border-bottom: 3px solid #f58f29;
+}
+.navbar-default .navbar-brand {
+  color: #f58f29;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ff9800;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f58f29;
+}
+.navbar-default .navbar-toggle {
+    border-color: #232323;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #070707;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #2d2d2d;
+}
+/* HOME PAGE */
+/* HOME-HEADER */
+#home-header {
+  padding: 25px;
+  background: #303030 url(../img/square_grid.png) center;
+  text-align: center;
+  color: #fff;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #000 solid 1px;
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+#home-header h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #f58f29;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+/* HOME-BODY */
+#home-body {
+  padding: 25px;
+  color: #222;
+  text-align: center;
+}
+#home-body p {
+  font-weight: 300;
+}
+/* VEHICLES PAGE */
+#vehicles {
+  padding: 25px;
+  text-align: center;
+}
+#vehicles h2 {
+  font-family: 'Titillium Web', sans-serif;
+}
+#vehicle {
+  background-color: #f8f8f8;
+  padding: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #dddddd;
+}
+#vehicles .row {
+  margin-bottom: 30px;
+}
+/* PAGE HEADERS */
+#page-header {
+  padding: 25px;
+  background: #303030 url(../img/square_grid.png) center;
+  text-align: center;
+  color: #fff;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #000 solid 1px;
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+#page-header h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #f58f29;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+#version-title {
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #000 solid 1px;
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+#version-title h3 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #f58f29;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+/* ABOUT US */
+#about {
+  background-color: #f8f8f8;
+  padding: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #dddddd;
+}
+/* FOOTER */
+#footer {
+  background-color: #282828;
+  padding: 25px;
+  color: #fff;
+}
+#footer  h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #f58f29;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+#footer ul {
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+}
+#footer li a {
+  color: #ddd;
+}
+#footer li a:hover {
+  color: #f58f29;
+}
+/* LEGAL */
+#legal {
+	padding: 25px;
+}
+/* PAGE TITLE */
+#legal .page-title {
+	font-size: 38px;
+	color: #D31F2B;
+	text-align: center;
+}
+/* SECTION HEADER */
+#legal h1 {
+  font-family: 'Titillium Web', sans-serif;
+	font-size: 36px;
+	color: #333;
+	font-weight: 100;
+}
+/* SUB HEADING */
+#legal h2 {
+  font-family: 'Titillium Web', sans-serif;
+	font-size: 28px;
+	color: #f58f29;
+	font-weight: 500;
+}
+/* PARAGRAPH INDENT AND FONTSIZE   */
+#legal p {
+  font-family: 'Open Sans', sans-serif;
+	margin: 10px 35px 10px;
+	font-size: 16px;
+	font-weight: 300;
+}
+/* INDENT SECTION NUMBER */
+#legal b {
+	font-size: 18px;
+	color: #000000;
+	font-weight: 900;
+}
+#legal .section {
+	padding: 5px;
+}
+#legal .sub-section {
+	margin-bottom: 15px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 426px) {
+  #legal p,
+	#legal b {
+		text-align: center;
+	}
+}
+@media only screen and (min-device-width: 680px) and (max-device-width: 768px) {
+  #legal p,
+  #legal b {
+    text-align: left;
+  }
+}
+@media print {
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+::selection {
+  background: #ffa040; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffa040; /* Gecko Browsers */
+}

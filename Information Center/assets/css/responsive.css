@@ -1,0 +1,51 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 426px){
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+      margin-left: -150px;
+      margin-top: 10px;
+  }
+  #footer {
+    text-align: center;
+  }
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+      margin-bottom: 28px;
+      text-align: center;
+  }
+}
+@media only screen and (min-device-width: 680px) and (max-device-width: 768px) {
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+      margin-left: -100px;
+  }
+  #footer {
+    text-align: center;
+  }
+}
+@media only screen and (min-device-width: 995px) and  (max-device-width: 1025px) {
+  #footer {
+    text-align: center;
+  }
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+      margin-left: -100px;
+  }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+      margin-left: -100px;
+  }
+}
+@media screen and (min-device-width: 1601px) and (max-device-width: 1921px){
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+      margin-left: -100px;
+  }
+}
+@media screen and (min-device-width: 1922px){
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+      margin-top: 15px;
+      margin-left: -100px;
+  }
+}
