@@ -1,0 +1,467 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Titillium+Web:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+/* BODY */
+body {
+  background-color: #141f2f;
+  font-family: 'Fjalla One', 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+/* JUMBOTRON */
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+.container .jumbotron {
+    border-radius: 0px;
+}
+.jumbotron {
+  background-color: #1c2c42;
+}
+.jumbotron h2 {
+  font-size: 30px;
+}
+.jumbotron p {
+  font-size: 16px;
+}
+/* NAVBAR */
+.nav a {
+  font-size: 19px;
+}
+.navbar {
+    min-height: 75px;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0px;
+}
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Fjalla One', 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.navbar-brand-centered img {
+  padding-top: -20px;
+  width: 50px;
+}
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+      margin-top: 10px;
+  }
+  .navbar-brand-centered {
+    margin-top: 10px;
+  }
+}
+.navbar-default {
+  background-color: #1c2c42;
+  border-bottom: 5px solid #294060;
+}
+.navbar-default .navbar-brand {
+  color: #f58f29;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ff9800;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #eed22c;
+}
+.navbar-default .navbar-toggle {
+    border-color: #232323;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #070707;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #2d2d2d;
+}
+/* HOME PAGE */
+/* HOME-HEADER */
+#home-header {
+  padding: 25px;
+  background: #303030 url(../img/banner.png) center;
+  text-align: center;
+  color: #fff;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #000 solid 1px;
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+#home-header h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #fff;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+#home-header p {
+  font-size: 28px;
+}
+#home-header img {
+  width: 150px;
+}
+/* HOME-BODY */
+#home-body {
+  padding: 15px;
+  padding-bottom: 50px;
+  background-color: #141f2f;
+  color: #fff;
+  text-align: center;
+}
+#home-body p {
+  font-weight: 300;
+}
+#home-body a {
+  color: #e54ba1;
+}
+#home-body a:hover {
+  color: #bd3a83;
+}
+#home-body h2 {
+  color: #eed22c;
+}
+/* SCHEDULE PAGE */
+/* SCHEDULE-HEADER */
+#schedule-header {
+  padding: 25px;
+  background: #303030 url(../img/banner.png) center;
+  text-align: center;
+  color: #fff;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #000 solid 1px;
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+#schedule-header h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #fff;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+#schedule-header p {
+  font-size: 28px;
+}
+#schedule-header img {
+  width: 150px;
+}
+/* SCHEDULE-BODY */
+#schedule-body {
+  padding: 15px;
+  padding-bottom: 50px;
+  background-color: #141f2f;
+  color: #fff;
+  text-align: center;
+}
+#schedule-body p {
+  font-weight: 300;
+}
+#schedule-body a {
+  color: #e54ba1;
+}
+#schedule-body a:hover {
+  color: #bd3a83;
+}
+#schedule-body h2 {
+  color: #eed22c;
+}
+/* LINEUP PAGE */
+/* LINEUP-HEADER */
+#lineup-header {
+  padding: 25px;
+  background: #303030 url(../img/banner.png) center;
+  text-align: center;
+  color: #fff;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #000 solid 1px;
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+#lineup-header h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #fff;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+#lineup-header p {
+  font-size: 28px;
+}
+#lineup-header img {
+  width: 150px;
+}
+/* LINEUP-BODY */
+#lineup-body {
+  padding: 15px;
+  padding-bottom: 50px;
+  background-color: #141f2f;
+  color: #fff;
+  text-align: center;
+}
+#lineup-body p {
+  font-weight: 300;
+}
+#lineup-body a {
+  color: #e54ba1;
+}
+#lineup-body a:hover {
+  color: #bd3a83;
+}
+#lineup-body h2 {
+  color: #eed22c;
+}
+.lineup {
+  background-color: red;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+  height: 150px;
+  width: 100%px;
+  margin-bottom: 50px;
+}
+.band {
+  background-color: #ff0000;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+  height: 150px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.now-performing {
+  background-color: #e54ba1;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: -10px;
+}
+.up-next {
+  background-color: #009fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+}
+.perform-time {
+  background-color: #e54ba1;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 65%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -250px;
+  padding: 7px;
+  width: 500px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #00b8ff;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 65%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #00b8ff;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* PAGE HEADERS */
+#page-header {
+  padding: 25px;
+  background: #303030 url(../img/square_grid.png) center;
+  text-align: center;
+  color: #fff;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #000 solid 1px;
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+#page-header h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #f58f29;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+/* ABOUT US */
+#about {
+  background-color: #f8f8f8;
+  padding: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #dddddd;
+}
+/* FOOTER */
+#footer {
+  background-color: #1c2c42;
+  padding: 25px;
+  color: #fff;
+}
+#footer  h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #15b2ff;
+  text-shadow: 4px 3px 0 #3d2b10,9px 8px 0 rgba(0,0,0,0.15);
+}
+#footer h3 {
+  color: #fff;
+}
+#footer ul {
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+}
+#footer li a {
+  color: #ddd;
+}
+#footer li a:hover {
+  color: #93b7be;
+}
+/* LEGAL */
+#legal {
+	padding: 25px;
+}
+/* PAGE TITLE */
+#legal .page-title {
+	font-size: 38px;
+	color: #D31F2B;
+	text-align: center;
+}
+/* SECTION HEADER */
+#legal h1 {
+  font-family: 'Titillium Web', sans-serif;
+	font-size: 36px;
+	color: #333;
+	font-weight: 100;
+}
+/* SUB HEADING */
+#legal h2 {
+  font-family: 'Titillium Web', sans-serif;
+	font-size: 28px;
+	color: #f58f29;
+	font-weight: 500;
+}
+/* PARAGRAPH INDENT AND FONTSIZE   */
+#legal p {
+  font-family: 'Open Sans', sans-serif;
+	margin: 10px 35px 10px;
+	font-size: 16px;
+	font-weight: 300;
+}
+/* INDENT SECTION NUMBER */
+#legal b {
+	font-size: 18px;
+	color: #000000;
+	font-weight: 900;
+}
+#legal .section {
+	padding: 5px;
+}
+#legal .sub-section {
+	margin-bottom: 15px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 426px) {
+  #legal p,
+	#legal b {
+		text-align: center;
+	}
+}
+@media only screen and (min-device-width: 680px) and (max-device-width: 768px) {
+  #legal p,
+  #legal b {
+    text-align: left;
+  }
+}
+@media print {
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+::selection {
+  background: #ffa040; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffa040; /* Gecko Browsers */
+}
