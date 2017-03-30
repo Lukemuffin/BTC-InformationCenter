@@ -1,7 +1,7 @@
 <?php
 $servername = "playcurvefever.com";
-$username = "gageampcf";
-$password = "Bigbadgerfan1@";
+$username = "username";
+$password = "password";
 $dbname = "DbFestival";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
